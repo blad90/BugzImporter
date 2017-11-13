@@ -8,6 +8,9 @@ public class Main {
     public static void main(String[] args){
         DatabaseManager dm = new DatabaseManager();
         dm.getConnection();
+        //Read data from database...
+        dm.readData();
+        dm.closeConnection();
 
 
     }
