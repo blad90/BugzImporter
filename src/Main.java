@@ -9,7 +9,7 @@ public class Main {
         DatabaseManager dm = new DatabaseManager();
         dm.getConnection();
         //Read data from database...
-        dm.readData();
+        dm.readBugsData();
         dm.closeConnection();
 
 
